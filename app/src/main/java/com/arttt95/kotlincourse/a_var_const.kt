@@ -1,5 +1,6 @@
 package com.arttt95.kotlincourse
 
+/*
 fun retornaNomeUsuario() {
     // Executa e retorna alguma coisa
 }
@@ -33,4 +34,4 @@ fun main() {
     println(res)
 
 
-}
+}*/
