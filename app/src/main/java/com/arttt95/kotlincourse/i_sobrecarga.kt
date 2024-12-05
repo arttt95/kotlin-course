@@ -1,5 +1,6 @@
 package com.arttt95.kotlincourse
 
+/*
 class Usuario {
 
     // Atributos
@@ -21,4 +22,4 @@ fun main() {
     val usuario = Usuario()
 //    usuario.logar("papai-cris@gmail.com", "7777")
     usuario.logar(99911199911, 7777)
-}
+}*/
