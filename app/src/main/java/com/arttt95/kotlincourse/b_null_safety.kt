@@ -1,6 +1,6 @@
 package com.arttt95.kotlincourse
 
-class Carro {
+/*class Carro {
 
     var cor: String = "Vermelho"
 
@@ -9,15 +9,15 @@ class Carro {
         // Lógica
 
     }
-}
+}*/
 
 fun main() {
 
-    var carro: Carro? = null
+    /*var carro: Carro? = null
 //    carro = Carro()
 
 //    val cor = carro?.cor ?: "cor padrão"
-    println(carro?.cor)
+    println(carro?.cor)*/
 
 }
 

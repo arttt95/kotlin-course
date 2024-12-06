@@ -27,7 +27,7 @@ fun main() {
         println("Nenhuma opção selecionada.")
     }*/
 
-    val valor = 7
+    /*val valor = 7
 
     when (valor){
         1 -> println("Cartão de crédito")
@@ -35,6 +35,6 @@ fun main() {
         3 -> println("Cancelamentos")
         in 4..7 -> println("Saldo")
         else -> println("Nenhuma opção selecionada")
-    }
+    }*/
 
 }

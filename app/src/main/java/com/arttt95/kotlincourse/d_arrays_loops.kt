@@ -21,12 +21,12 @@ fun main() {
         println("Executando: $num")
     }*/
 
-    val nomes = arrayOf(
+    /*val nomes = arrayOf(
         "Penaldo", "Pessi", "Menino Ney", "Shevchenko", "Nedved"
     )
 
     for( (i, nome) in nomes.withIndex()) {
         println("$i: $nome")
-    }
+    }*/
 
 }

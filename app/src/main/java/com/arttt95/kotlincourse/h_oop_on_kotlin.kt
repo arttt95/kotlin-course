@@ -1,6 +1,6 @@
 package com.arttt95.kotlincourse
 
-class Jogador {
+/*class Jogador {
 
     var kart = ""
     var pneu = ""
@@ -10,25 +10,25 @@ class Jogador {
         println("Acelerando a $aceleracao km/h...")
     }
 
-    /*fun retornarPoder(): String {
+    *//*fun retornarPoder(): String {
         return "Pulso Eletromagnético"
-    }*/
+    }*//*
 
     fun retornarPoder(): String = "Pulso Eletromagnético"
 
-}
+}*/
 
 fun main() {
 
-    val jogador = Jogador() // Caixa 01
+    /*val jogador = Jogador() // Caixa 01
     jogador.kart = "Clássico"
     jogador.pneu = "Esportivo"
     jogador.planador = "Grande"
 
-    /*jogador = Jogador() // Caixa 02
+    *//*jogador = Jogador() // Caixa 02
     jogador.kart = "Rally"
     jogador.pneu = "Terra"
-    jogador.planador = "Pequeno"*/
+    jogador.planador = "Pequeno"*//*
 
     println(jogador.kart)
     println(jogador.pneu)
@@ -37,6 +37,6 @@ fun main() {
     jogador.acelerar(aceleracao = 20)
 
     val poder = jogador.retornarPoder()
-    println(poder)
+    println(poder)*/
 
 }
