@@ -1,69 +1,70 @@
 package com.arttt95.kotlincourse
 
+/*
 interface Presidenciavel {
-    fun cadidatarSe() {
-
-    }
+    fun candidatarSe()
 }
 
-abstract class Pessoa {
+open class Pessoa {
 
-    fun comer() {
-        println("Comendo...")
-    }
+    var nome: String = ""
+
+    fun comer() = println("Comendo...")
+
+}
+
+class DevWeb : Pessoa() {
+
+    fun programar() = println("Programando...")
 
 }
 
 class DevAndroid : Pessoa() {
-    fun programar() {
-        println("Programando...")
-    }
-}
 
-class DevWeb : Pessoa() {
-    fun programar() {
-        println("Programando...")
-    }
-    
-    fun candidatarSe() {
-        
-    }
+    fun programar() = println("Programando...")
+
 }
 
 class Jornalista : Pessoa(), Presidenciavel {
-    fun escreverNoticia() {
-        println("Escrevendo notícias...")
-    }
 
-    fun candidatarSe() {
-        println("Candidatando-se...")
-    }
+    fun escreverNoticia() = println("Escrevendo notícias...")
+
+    override fun candidatarSe() = println("Candidatando-se...")
+
 }
 
 class FuncPublico : Pessoa() {
 
+    fun multar() = println("Multando...")
+
 }
+
+
 
 
 fun main() {
 
-    val devAndroid = DevAndroid()
-    devAndroid.comer()
-
-    println("------------")
-
     val devWeb = DevWeb()
     devWeb.comer()
+    devWeb.programar()
 
-    println("------------")
+    println("----------------")
+
+    val devAndroid = DevAndroid()
+    devAndroid.comer()
+    devAndroid.programar()
+
+    println("----------------")
 
     val jornalista = Jornalista()
     jornalista.comer()
-    jornalista.candidatarSe()
+    jornalista.escreverNoticia()
 
-    println("------------")
+    println("----------------")
 
     val funcPublico = FuncPublico()
     funcPublico.comer()
+    funcPublico.multar()
 
-}
+
+}*/
