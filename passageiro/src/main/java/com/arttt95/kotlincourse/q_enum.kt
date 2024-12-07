@@ -1,6 +1,6 @@
 package com.arttt95.kotlincourse
 
-// -> aguardando_aprovacao
+/*// -> aguardando_aprovacao
 // -> pedido_realizado
 // -> pagamento_confirmado
 // -> pedido_enviado
@@ -21,11 +21,11 @@ class Pedido (
 ){
 
 
-}
+}*/
 
 fun main() {
 
-    // Tela FINALIZAR COMPRA
+    /*// Tela FINALIZAR COMPRA
     val pedido = Pedido(125.90, "Camiseta, Livro")
 
     // Pagamento com Cartão
@@ -62,7 +62,7 @@ fun main() {
 
         println("Houve um erro no carregamento, por favor retorne mais tarde.")
 
-    }
+    }*/
 
 
 }

@@ -1,6 +1,6 @@
 package com.arttt95.kotlincourse
-
-/*class Carro (
+/*
+*//*class Carro (
     private var modelo: String = "",
     private var velocidade: Int = 0
 ) {
@@ -20,7 +20,7 @@ package com.arttt95.kotlincourse
                 "Modelo: $modelo | Velocidade: $velocidade")
     }
 
-}*/
+}*//*
 
 class Usuario {
 
@@ -35,13 +35,13 @@ class Usuario {
 
     }
 
-}
+}*/
 
 fun main() {
 
-//    val usuario = Usuario()
+/*//    val usuario = Usuario()
     val retorno = Usuario.verificarUsuarioLogado()
-    println(retorno)
+    println(retorno)*/
 
     /*val fusca = Carro("Fusca", 100)
     fusca.exibirInformacoes()
